@@ -1,0 +1,243 @@
+.social-icon:hover {
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.i-icon {
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.i-icon:hover {
+    background-color: orangered;
+    border-radius: 50%;
+
+}
+
+.bab:hover {
+    color: orangered;
+
+}
+
+button {
+    background-color: rgb(16, 5, 1);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.imgs {
+    width: 1000px;
+    height: 400px;
+}
+
+.position {
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    background-color: white;
+    padding: 10px;
+    align-self: center;
+    width: 350px;
+
+}
+
+.position1 {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+    color: white;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 400px;
+    background-image: url('../images/page-heading-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.breadcrumb {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.display-1 {
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .hero-section {
+        min-height: 250px;
+        padding: 15px;
+    }
+
+    .breadcrumb {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .display-1 {
+        font-size: 38px;
+    }
+
+    .btn2 {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        min-height: 150px;
+        padding: 10px;
+    }
+
+    .breadcrumb {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    .display-1 {
+        font-size: 28px;
+    }
+
+    .btn2 {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+.deal-features-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    font-size: 1rem;
+}
+
+.feature-label {
+    color: #999;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.feature-value {
+    color: #111;
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+.deal-features-card .d-flex:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    background: #222;
+    color: #fff;
+    transition: background .2s, color .2s;
+}
+
+.btn1.active,
+.btn1:hover {
+    background: orangered;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .deal-features-card {
+        margin-bottom: 24px;
+    }
+}
+
+.badge {
+    background-color: var(--bs-danger-bg-subtle);
+    color: var(--bs-danger-text-emphasis);
+}
+
+.accordion-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 490px;
+}
+
+#propertyAccordion {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-button {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+}
+
+.accordion-body {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Tablet view */
+@media (max-width: 992px) {
+    #propertyAccordion {
+        max-width: 90%;
+    }
+
+    .accordion-button {
+        font-size: 0.95rem;
+        padding: 0.7rem 0.9rem;
+    }
+
+    .accordion-body {
+        font-size: 0.9rem;
+        padding: 0.9rem;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 576px) {
+    #propertyAccordion {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .accordion-button {
+        font-size: 0.9rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .accordion-body {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+}
