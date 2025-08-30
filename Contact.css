@@ -7,18 +7,15 @@
     width: 80px;
     height: 40px;
     border-radius: 50%;
-
 }
 
 .i-icon:hover {
     background-color: orangered;
     border-radius: 50%;
-
 }
 
 .bab:hover {
     color: orangered;
-
 }
 
 button {
