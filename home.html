@@ -11,29 +11,32 @@
 </head>
 
 <body>
-    <div class="container d-flex justify-content-between align-items-center py-4">
+    <div class="container d-flex justify-content-between align-items-center py-4 border-bottom my-5 ">
+
         <div class="d-flex align-items-center gap-5">
             <div class="d-flex align-items-center gap-2">
                 <img src="../images/email-icon.png" alt="Email" style="width:20px;">
                 <span>info@company.com</span>
             </div>
+
             <div class="d-flex align-items-center gap-2">
-                <img src="../images/map-solid-full (1).svg" alt="Location" style="width:20px;">
+                <img src="../images/map-regular-full.svg" alt="Location" style="width:24px;">
                 <span>Sunny Isles Beach, FL 33160</span>
             </div>
-        </div>
+
+        </div> 
 
         <div class="col-12 col-md-auto d-flex justify-content-center gap-4">
-            <a class="social-icon" href="#"><img src="../images/facebook-brands-solid-full.svg" style="width:20px;"></a>
-            <a class="social-icon" href="#"><img src="../images/twitter-brands-solid-full.svg" style="width:20px;"></a>
-            <a class="social-icon" href="#"><img src="../images/instagram-brands-solid-full.svg"
-                    style="width:20px;"></a>
-            <a class="social-icon" href="#"><img src="../images/linkedin-brands-solid-full.svg" style="width:20px;"></a>
+            <a class="social-icon" href="#"><img src="../images/facebook-brands-solid-full.svg" style="width:30px;border-radius:50%"></a>
+            <a class="social-icon" href="#"><img src="../images/square-twitter-brands-solid-full.svg" style="width:30px;border-radius:50%"></a>
+            <a class="social-icon" href="#"><img src="../images/linkedin-brands-solid-full.svg" style="width:30px;border-radius:50%"></a>
+            <a class="social-icon" href="#"><img src="../images/square-instagram-brands-solid-full.svg"style="width:30px;border-radius:50%"></a>
         </div>
-    </div>
+
+    </div> 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
         <div class="container">
             <a class="navbar-brand fw-bold" style="font-size:xx-large;" href="#">VILLA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
@@ -41,16 +44,14 @@
             </button>
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item me-4"><a class="nav-link bab" href="#">Home</a></li>
-                    <li class="nav-item me-4"><a class="nav-link bab" href="./Properties.html">Properties</a></li>
-                    <li class="nav-item me-4"><a class="nav-link bab" href="./PropertyDetails.html">Property Details</a>
-                    </li>
-                    <li class="nav-item me-4"><a class="nav-link bab" href="./Contact.html">Contact Us</a></li>
+                    <li class="nav-item me-4"><a class="nav-link bab fw-bold" href="#">Home</a></li>
+                    <li class="nav-item me-4"><a class="nav-link bab fw-bold" href="./Properties.html">Properties</a></li>
+                    <li class="nav-item me-4"><a class="nav-link bab fw-bold" href="./PropertyDetails.html">Property Details</a></li>
+                    <li class="nav-item me-4"><a class="nav-link bab fw-bold" href="./Contact.html">Contact Us</a></li>
                     <li class="nav-item">
                         <button>
-                            <img src="../images/calendar-regular-full.svg" alt="icon"
-                                style="width: 25px; height: 25px; background-color: #f4f0ee; border-radius: 50%;">Schedule
-                            a Visit</button>
+                            <img src="../images/calendar-solid-full.svg" alt="icon" style="width:30px; height:30px; background-color: orangered; border-radius: 50%; padding-right:2px;"> Schedule a visit
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -62,8 +63,8 @@
         <div class="banner-container">
             <img class="banner-image" src="../images/banner-01.jpg" alt="Banner">
             <div>
-                <h1 class="position">Toronto, <span style="color: orangered;">Canada</span></h1>
-                <h1 class="position1">HURRY!<br> GET THE BEST<br> VILLA FOR YOU</h1>
+                <p class="position">Toronto, <span style="color: orangered;">Canada</span></p>
+                <p class="position1">HURRY!<br> GET THE BEST<br> VILLA FOR YOU</p>
             </div>
         </div>
     </div>
@@ -71,6 +72,7 @@
     <!-- Featured Section -->
     <div class="container my-5">
         <div class="row gy-4 align-items-start">
+
             <!-- Image -->
             <div class="col-12 col-lg-4 text-center">
                 <img class="img-fluid rounded" src="../images/featured.jpg" alt="Featured">
@@ -79,8 +81,7 @@
             <!-- Accordion -->
             <div class="col-12 col-lg-4">
                 <p class="text-warning fw-bold">| FEATURED</p>
-                <h1 class="fw-bold">Best Apartment & Sea View</h1>
-
+                <h1 class=" text-warning fw-bold">Best Apartment & Sea View</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -117,7 +118,7 @@
             </div>
 
             <!-- Info Cards -->
-            <div class=" col-lg-4" ">
+            <div class="col-lg-4">
                 <div class=" accordion-item ">
                 <div class=" shadow p-3 rounded" style="height:500px;">
                 <div class="d-flex align-items-center mb-3 gap-5">
@@ -152,34 +153,34 @@
         </div>
     </div>
     </div>
-    <div class="position-relative mt-5" style="height:420px;">
+    <div class="position-relative mt-5 mb-5" style="height:420px;">
         <!-- Background blur/dark image -->
         <div class="video-section-bg w-100 h-100"></div>
 
         <!-- Overlayed title and card -->
         <div class="video-section-content h-100">
             <div class="video-title-overlay">
-                <span style="color:orangered;font-size:1rem;font-weight:700;">| VIDEO VIEW</span>
-                <h2 style="font-weight:700;">Get Closer View &<br>Different Feeling</h2>
-            </div>
-            <div class="video-card mt-5 shadow">
+                <span style="color:orangered;font-size:0.75rem;font-weight:700;">| VIDEO VIEW</span>
+                <h3 style="font-weight:700;">Get Closer View &<br>Different Feeling</h3>
+            </div>  <br><br><br><br><br>
+            <div class="video-card mt-4 shadow">
                 <img src="../images/video-frame.jpg" alt="Video Frame">
                 <div class="play-btn"></div>
             </div>
         </div>
     </div><br><br><br><br>
-    <div class="d-flex flex-wrap gap-3 justify-content-between align-items-center mt-5">
+    <div class="d-flex flex-wrap gap-4 justify-content-between align-items-center mt-5">
 
         <!-- Buildings Finished -->
-        <div class="bg-light px-5 py-4 position-relative rounded-3 stat-card d-flex align-items-center"
-            style="min-width:160px;">
+        <div class="bg-light px-4 py-4 position-relative rounded-3 stat-card d-flex align-items-center"
+            style="min-width:120px;">
             <span class="stat-number me-3">34</span>
             <span class="stat-label">Buildings<br>Finished Now</span>
             <span class="stat-dot"></span>
         </div>
         <!-- Years Experience -->
         <div class="bg-light px-5 py-4 position-relative rounded-3 stat-card d-flex align-items-center"
-            style="min-width:160px;">
+            style="min-width:120px;">
             <span class="stat-number me-3">12</span>
             <span class="stat-label">Years<br>Experience</span>
             <span class="stat-dot"></span>
@@ -187,9 +188,9 @@
 
         <!-- Awards 2023 -->
         <div class="bg-light px-5 py-4 position-relative rounded-3 stat-card d-flex align-items-center"
-            style="min-width:160px; margin-right: 80px;">
+            style="min-width:120px; margin-right: 80px;">
             <span class="stat-number me-3">24</span>
-            <span class="stat-label">Awwards<br>Won 2023</span>
+            <span class="stat-label">Awards<br>Won 2023</span>
             <span class="stat-dot"></span>
         </div>
     </div><br>
@@ -201,7 +202,7 @@
                 Find Your Best Deal <br>Right Now!
             </h1>
             <div class="d-flex gap-2 flex-wrap mt-3 mt-md-0">
-                <button class="btn1 active" type="button">Appartment</button>
+                <button class="btn1" type="button">Appartment</button>
                 <button class="btn1" type="button">Villa House</button>
                 <button class="btn1" type="button">Penthouse</button>
             </div>
@@ -254,9 +255,8 @@
                         In addition, you can type XYZ Portfolio, XYZ One Page Layouts, etc.
                     </p>
                     <button>
-                        <img src="../images/calendar-regular-full.svg" alt="icon"
-                            style="width: 25px; height: 25px; background-color: #f4f0ee; border-radius: 50%;">Schedule
-                        a Visit</button>
+                        <img src="../images/calendar-solid-full.svg" alt="icon"
+                            style="width:30px; height:30px; background-color: orangered; border-radius: 50%;"> Schedule a visit</button>
                 </div>
             </div>
         </div>
@@ -268,25 +268,23 @@
         <h1 class="fw-bold text-center">We Provide The Best<br>Property You Like</h1>
         <div class="container my-5">
             <div class="row justify-content-center g-4">
+
                 <!-- Card 1 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card property-card shadow-sm h-100 border-0">
                         <img src="../images/property-01.jpg" class="card-img-top" alt="Luxury Villa">
                         <div class="card-body p-4 text-start">
-                            <h2 class="badge text-black mb-2 d-inline-block" style="font-size: .89rem;">Luxury
-                                Villa</h2>
-                            <h4 class="text-end text-danger mb-3" style="font-weight:700;">$2.264.000</h4>
-                            <h5 class="card-title fw-bold mb-3 text-dark">18 New Street Miami, OR 97219</h5>
-
+                            <h2 class="badge text-black mb-2 d-inline-block" style="font-size: .89rem;">Luxury Villa</h2>
+                            <h5 class="text-end text-danger mb-3" style="font-weight:700;">$2.264.000</h5>
+                            <h5 class="card-title fw-bold mb-3 text-dark">18 New Street Miami,<br> OR 97219</h5>
                             <div class="row text-secondary text-start small mb-2">
                                 <div class="col-6">Bedrooms: <span class="text-dark fw-bold">8</span></div>
                                 <div class="col-6">Bathrooms: <span class="text-dark fw-bold">8</span></div>
                                 <div class="col-6">Area: <span class="text-dark fw-bold">545m²</span></div>
                                 <div class="col-6">Floor: <span class="text-dark fw-bold">3</span></div>
                                 <div class="col-6">Parking: <span class="text-dark fw-bold">6 spots</span></div>
-                            </div>
-                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a
-                                visit</a>
+                            </div> <hr>
+                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
@@ -296,19 +294,17 @@
                     <div class="card property-card shadow-sm h-100 border-0">
                         <img src="../images/property-02.jpg" class="card-img-top" alt="Luxury Villa">
                         <div class="card-body p-4 text-start">
-                            <span class="badge text-black mb-2" style="font-size: .89rem;">Luxury
-                                Villa</span>
-                            <h4 class="text-end text-danger mb-3" style="font-weight:700;">$1.180.000</h4>
-                            <h5 class="card-title fw-bold mb-3 text-dark">54 Mid Street Florida, OR 27001</h5>
+                            <span class="badge text-black mb-2" style="font-size: .89rem;">Luxury Villa</span>
+                            <h5 class="text-end text-danger mb-3" style="font-weight:700;">$1.180.000</h5>
+                            <h5 class="card-title fw-bold mb-3 text-dark">54 Mid Street Florida, <br>OR 27001</h5>
                             <div class="row text-secondary text-start small mb-2">
                                 <div class="col-6">Bedrooms: <span class="text-dark fw-bold">6</span></div>
                                 <div class="col-6">Bathrooms: <span class="text-dark fw-bold">5</span></div>
                                 <div class="col-6">Area: <span class="text-dark fw-bold">450m²</span></div>
                                 <div class="col-6">Floor: <span class="text-dark fw-bold">3</span></div>
                                 <div class="col-6">Parking: <span class="text-dark fw-bold">8 spots</span></div>
-                            </div>
-                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a
-                                visit</a>
+                            </div> <hr>
+                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
@@ -319,74 +315,76 @@
                         <img src="../images/property-03.jpg" class="card-img-top" alt="Luxury Villa">
                         <div class="card-body p-4 text-start">
                             <span class="badge text-black mb-2" style="font-size: .89rem;">Luxury Villa</span>
-                            <h4 class="text-end text-danger mb-3" style="font-weight:700;">$1.460.000</h4>
-                            <h5 class="card-title fw-bold mb-3 text-dark">26 Old Street Miami, OR 38540</h5>
+                            <h5 class="text-end text-danger mb-3" style="font-weight:700;">$1.460.000</h5>
+                            <h5 class="card-title fw-bold mb-3 text-dark">26 Old Street Miami, <br>OR 38540</h5>
                             <div class="row text-secondary text-start small mb-2">
                                 <div class="col-6">Bedrooms: <span class="text-dark fw-bold">5</span></div>
                                 <div class="col-6">Bathrooms: <span class="text-dark fw-bold">4</span></div>
                                 <div class="col-6">Area: <span class="text-dark fw-bold">225m²</span></div>
                                 <div class="col-6">Floor: <span class="text-dark fw-bold">3</span></div>
                                 <div class="col-6">Parking: <span class="text-dark fw-bold">10 spots</span></div>
-                            </div>
-                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a
-                                visit</a>
+                            </div> <hr>
+                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Card 4 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card property-card shadow-sm h-100 border-0">
                         <img src="../images/property-04.jpg" class="card-img-top" alt="Luxury Villa">
                         <div class="card-body p-4 text-start">
-                            <span class="badge  text-black mb-2" style="font-size: .89rem;">Apartment</span>
-                            <h4 class="text-end text-danger mb-3" style="font-weight:700;">$584.500</h4>
-                            <h5 class="card-title fw-bold mb-3 text-dark">12 New Street Miami, OR 12650</h5>
+                            <span class="badge text-black mb-2" style="font-size: .89rem;">Apartment</span>
+                            <h5 class="text-end text-danger mb-3" style="font-weight:700;">$584.500</h5>
+                            <h5 class="card-title fw-bold mb-3 text-dark">12 New Street Miami, <br>OR 12650</h5>
                             <div class="row text-secondary text-start small mb-2">
                                 <div class="col-6">Bedrooms: <span class="text-dark fw-bold">4</span></div>
                                 <div class="col-6">Bathrooms: <span class="text-dark fw-bold">3</span></div>
                                 <div class="col-6">Area: <span class="text-dark fw-bold">125m²</span></div>
                                 <div class="col-6">Floor: <span class="text-dark fw-bold">25th</span></div>
                                 <div class="col-6">Parking: <span class="text-dark fw-bold">2 cars</span></div>
-                            </div>
-                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a
-                                visit</a>
+                            </div> <hr>
+                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Card 5 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card property-card shadow-sm h-100 border-0">
                         <img src="../images/property-05.jpg" class="card-img-top" alt="Luxury Villa">
                         <div class="card-body p-4 text-start">
                             <span class="badge  text-black mb-2" style="font-size: .89rem;">Penthouse</span>
-                            <h4 class="text-end text-danger mb-3" style="font-weight:700;">$925.600</h4>
-                            <h5 class="card-title fw-bold mb-3 text-dark">34 Beach Street Miami, OR 42680</h5>
+                            <h5 class="text-end text-danger mb-3" style="font-weight:700;">$925.600</h5>
+                            <h5 class="card-title fw-bold mb-3 text-dark">34 Beach Street Miami, <br>OR 42680</h5>
                             <div class="row text-secondary text-start small mb-2">
                                 <div class="col-6">Bedrooms: <span class="text-dark fw-bold">4</span></div>
                                 <div class="col-6">Bathrooms: <span class="text-dark fw-bold">4</span></div>
                                 <div class="col-6">Area: <span class="text-dark fw-bold">180m²</span></div>
                                 <div class="col-6">Floor: <span class="text-dark fw-bold">38th</span></div>
                                 <div class="col-6">Parking: <span class="text-dark fw-bold">2 cars</span></div>
-                            </div>
-                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a
-                                visit</a>
+                            </div> <hr>
+                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Card 6 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card property-card shadow-sm h-100 border-0">
                         <img src="../images/property-06.jpg" class="card-img-top" alt="Luxury Villa">
                         <div class="card-body p-4 text-start">
                             <span class="badge  text-black mb-2" style="font-size: .89rem;">Modern Condo</span>
-                            <h4 class="text-end text-danger mb-3" style="font-weight:700;">$460.000</h4>
-                            <h5 class="card-title fw-bold mb-3 text-dark">22 New Street Portland, OR 16540</h5>
+                            <h5 class="text-end text-danger mb-3" style="font-weight:700;">$460.000</h5>
+                            <h5 class="card-title fw-bold mb-3 text-dark">22 New Street Portland, <br>OR 16540</h5>
                             <div class="row text-secondary text-start small mb-2">
                                 <div class="col-6">Bedrooms: <span class="text-dark fw-bold">3</span></div>
                                 <div class="col-6">Bathrooms: <span class="text-dark fw-bold">4</span></div>
                                 <div class="col-6">Area: <span class="text-dark fw-bold">165m²</span></div>
                                 <div class="col-6">Floor: <span class="text-dark fw-bold">26th</span></div>
                                 <div class="col-6">Parking: <span class="text-dark fw-bold">3 cars</span></div>
-                            </div>
-                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a
-                                visit</a>
+                            </div> <hr>
+                            <a href="#" class="btn btn-dark w-100 mt-3" style="border-radius: 25px;">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
@@ -442,7 +440,7 @@
                         <form class="w-100">
                             <div class="mb-3">
                                 <label for="fullName" class="form-label fw-semibold">Full Name</label>
-                                <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Name...">
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-semibold">Email Address</label>
@@ -454,8 +452,7 @@
                             </div>
                             <div class="mb-4">
                                 <label for="message" class="form-label fw-semibold">Message</label>
-                                <textarea class="form-control form-control-lg" rows="3"
-                                    placeholder=" Your Message"></textarea>
+                                <textarea class="form-control form-control-lg" rows="3" placeholder=" Your Message..."></textarea>
                             </div>
                             <div class="text-start">
                                 <button type="submit" class="btn btn-dark px-4 rounded-pill">Send Message</button>

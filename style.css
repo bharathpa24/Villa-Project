@@ -1,5 +1,5 @@
 .social-icon:hover {
-    background-color: orangered;
+    background-color: black;
     border-radius: 50%;
 }
 
@@ -34,20 +34,19 @@
 
 .banner-text {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 10%;
     color: white;
 }
 
 .position {
-    font-size: 2.5rem;
-    margin: 0;
+    font-size: 1rem;
+    padding: 10px;
 }
 
 .position1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin: 0;
 }
 
 .highlight {
@@ -80,17 +79,16 @@
 }
 
 button {
-    background-color: rgb(16, 5, 1);
-    color: white;
-    border: none;
+    color: orangered;
+    background-color: black;
     border-radius: 30px;
-    padding: 10px 15px;
-    cursor: pointer;
+    padding: 10px 10px;
 }
 
 button:hover {
-    background-color: orangered;
     color: white;
+    background-color: orangered;
+    font-weight:bold;
 }
 
 .position {
@@ -129,8 +127,7 @@ button:hover {
 }
 
 .video-card {
-    background: #fff;
-    border-radius: 18px;
+    background: white;
     box-shadow: 0 4px 24px rgba(0, 0, 0, .1);
     overflow: hidden;
     max-width: 700px;
@@ -150,7 +147,7 @@ button:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
+    background: white;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -177,22 +174,20 @@ button:hover {
     left: 0;
     right: 0;
     text-align: center;
-    color: #fff;
+    color: white;
     z-index: 3;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.43);
 }
 
-.badge-dot {
-    width: 32px;
-    height: 32px;
-    background: #f35d22;
+.badge-dot { 
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    display: inline-block;
     z-index: 2;
 }
 
 .deal-features-card {
-    background: #fff;
+    background: white;
     border-radius: 16px;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
     font-size: 1rem;
@@ -211,7 +206,7 @@ button:hover {
 }
 
 .deal-features-card .d-flex:not(:last-child) {
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid white;
 }
 
 .btn1 {
@@ -220,14 +215,13 @@ button:hover {
     padding: 10px 20px;
     font-weight: 600;
     background: #222;
-    color: #fff;
+    color: white;
     transition: background .2s, color .2s;
 }
 
-.btn1.active,
 .btn1:hover {
     background: orangered;
-    color: #fff;
+    color: white;
 }
 
 @media (max-width: 992px) {
@@ -272,7 +266,7 @@ button:hover {
 .stat-number {
     font-size: 2.2rem;
     font-weight: 800;
-    color: #f35d22;
+    color: orangered;
     margin-bottom: 0;
 }
 
@@ -286,11 +280,11 @@ button:hover {
 .stat-dot {
     position: absolute;
     top: 0;
-    right: 18px;
+    right: 0px;
     transform: translateY(-50%);
     width: 32px;
     height: 32px;
-    background: #f35d22;
+    background: orangered;
     border-radius: 50%;
     z-index: 2;
 }
@@ -314,13 +308,13 @@ button:hover {
 
 .contact-card {
     border-radius: 1.7rem;
-    background: #fff;
+    background: white;
     box-shadow: 0 4px 32px #0002;
     min-height: 330px;
 }
 
 .contact-info-box {
-    background: #fff;
+    background: white;
     min-width: 180px;
     min-height: 85px;
     box-shadow: 0 1px 8px #0001;
