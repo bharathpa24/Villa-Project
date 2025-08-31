@@ -1,5 +1,5 @@
 .social-icon:hover {
-    background-color: orangered;
+    background-color: black;
     border-radius: 50%;
 }
 
@@ -21,17 +21,16 @@
 }
 
 button {
-    background-color: rgb(16, 5, 1);
-    color: white;
-    border: none;
+   color: orangered;
+    background-color: black;
     border-radius: 30px;
-    padding: 10px 15px;
-    cursor: pointer;
+    padding: 10px 10px;
 }
 
 button:hover {
-    background-color: orangered;
     color: white;
+    background-color: orangered;
+    font-weight:bold;
 }
 
 .imgs {
@@ -41,18 +40,15 @@ button:hover {
 
 .position {
     position: absolute;
-    top: 250px;
-    left: 600px;
+    top: 350px;
+    left: 380px;
     background-color: white;
-    padding: 10px;
-    align-self: center;
-    width: 350px;
 }
 
 .position1 {
-    position: absolute;
-    top: 320px;
-    left: 500px;
+     position: absolute;
+    top: 400px;
+    left: 380px;
     color: white;
 }
 

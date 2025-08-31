@@ -1,5 +1,5 @@
 .social-icon:hover {
-    background-color: orangered;
+    background-color: black;
     border-radius: 50%;
 }
 
@@ -19,18 +19,16 @@
 }
 
 button {
-    background-color: rgb(16, 5, 1);
-    color: white;
-    border: none;
+    color: orangered;
+    background-color: black;
     border-radius: 30px;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 10px;
 }
 
 button:hover {
-    background-color: orangered;
     color: white;
+    background-color: orangered;
+    font-weight:bold;
 }
 
 .btn2 {
