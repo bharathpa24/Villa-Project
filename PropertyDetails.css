@@ -7,13 +7,11 @@
     width: 80px;
     height: 40px;
     border-radius: 50%;
-
 }
 
 .i-icon:hover {
     background-color: orangered;
     border-radius: 50%;
-
 }
 
 .bab:hover {
@@ -55,7 +53,7 @@ button:hover {
 .hero-section {
     width: 100%;
     min-height: 400px;
-    background-image: url('../images/page-heading-bg.jpg');
+    background-image: url('images/page-heading-bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
